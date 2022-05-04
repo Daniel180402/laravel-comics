@@ -4,9 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Laravel</title>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="{{asset("css/app.css")}}">
+        @yield('head-script')
     </head>
     <body>
-        <h1>Home</h1>
+
+        @include('partials.header')
+
+        <main>
+            <h1>Home</h1>
+            @yield('main-content')
+        </main>
+        
+        @include('partials.footer')
+
     </body>
 </html>
