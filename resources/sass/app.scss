@@ -2,12 +2,57 @@
 @import "partials/common";
 @import "partials/variables";
 
+header{
+    margin: 2rem 0;
+    height: 13vh;
+    background-color: white;
+}
+
+div.my-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+
+    img{
+        height: 70%;
+        padding: 1rem;
+    }
+
+    ul{
+        display: flex;
+
+        li{
+            list-style-type: none;
+            padding: 0 .6rem;
+            line-height: 12vh;
+
+            a{
+                font-size: .7rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: black;
+            }
+
+            &:active,
+            &.active{
+                border-bottom: $primaryColor 5px solid;
+            }
+        }
+    }
+}
+
+nav.header-nav,
+ul {
+    height: 100%;
+}
+
+
 main{
     background-color: $darkGrayColor;
 }
-
-div{
-    background-color: $darkGrayColor;
 
     .comic-container{
         display: flex;

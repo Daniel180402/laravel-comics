@@ -13,6 +13,45 @@ body {
   margin: 0 auto;
 }
 
+header {
+  margin: 2rem 0;
+  height: 13vh;
+}
+
+div.my-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+div.my-container img {
+  height: 70%;
+  padding: 1rem;
+}
+div.my-container ul {
+  display: flex;
+}
+div.my-container ul li {
+  list-style-type: none;
+  padding: 0 0.6rem;
+  line-height: 12vh;
+}
+div.my-container ul li a {
+  font-size: 0.7rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+}
+div.my-container ul li:active, div.my-container ul li.active {
+  border-bottom: #0282f9 5px solid;
+}
+
+nav.header-nav,
+ul {
+  height: 100%;
+}
+
 main {
   background-color: #1c1c1c;
 }
