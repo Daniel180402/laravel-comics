@@ -12,8 +12,9 @@
         @include('partials.header')
 
         <main>
-            <h1>Home</h1>
-            @yield('main-content')
+
+            @yield('content')
+
         </main>
         
         @include('partials.footer')
