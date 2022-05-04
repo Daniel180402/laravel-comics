@@ -1,3 +1,35 @@
 //
 @import "partials/common";
 @import "partials/variables";
+
+main{
+    background-color: $darkGrayColor;
+}
+
+div{
+    background-color: $darkGrayColor;
+
+    .comic-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+
+        .comic-element{
+            width: calc(20% - (.8rem));
+            height: fit-content;
+            margin: .1rem;
+            margin-bottom: 1rem;
+            background-color: $darkGrayColor;
+            padding: 1rem;
+            text-align: center;
+            color: white;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

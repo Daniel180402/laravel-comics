@@ -1,6 +1,14 @@
 @extends('layout.app')
 
 @section('content')
-    <h1>Questo è un contenuto</h1>
-    @dump($comics)
+    <div class="my-container">
+        <div class="comic-container">
+            @foreach ($comics as $comic)
+                <div class="comic-element">
+                    <img src="{{ $comic["thumb"] }}" alt="{{ $comic["title"] }}">
+                    <h4>{{ $comic["title"] }}</h4>
+                </div>
+            @endforeach
+        </div>
+    </div>
 @endsection
