@@ -11318,10 +11318,13 @@ header .my-container nav.header-nav ul li:active, header .my-container nav.heade
   background-color: #1c1c1c;
   padding: 1rem;
   text-align: center;
-  color: white;
 }
 .comic-container .comic-element img {
   height: 100%;
+}
+.comic-container .comic-element a {
+  text-decoration: none;
+  color: white;
 }
 
 .jumbotron-wrapper {

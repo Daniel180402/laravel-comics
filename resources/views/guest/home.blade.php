@@ -4,10 +4,10 @@
 <div class="comics-wrapper">
     <div class="my-container">
         <div class="comic-container">
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
                 <div class="comic-element">
                     <img src="{{ $comic["thumb"] }}" alt="{{ $comic["title"] }}">
-                    <h4>{{ $comic["title"] }}</h4>
+                    <a href="{{ route("comic-detail", ['id' => $index]) }}"><h5>{{ $comic["title"] }}</h5></a>
                 </div>
             @endforeach
         </div>

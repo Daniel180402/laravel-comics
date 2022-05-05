@@ -32,5 +32,4 @@
             </div>
         </div>
     </div>
-    @dump($comic)
 @endsection

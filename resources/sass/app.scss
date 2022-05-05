@@ -59,7 +59,7 @@ header{
         flex-wrap: wrap;
         justify-content: center;
         height: 100%;
-
+        
         .comic-element{
             width: calc(100% / 6 - (.8rem));
             height: fit-content;
@@ -68,10 +68,13 @@ header{
             background-color: $darkGrayColor;
             padding: 1rem;
             text-align: center;
-            color: white;
 
             img{
                 height: 100%;
+            }
+            a{
+                text-decoration: none;
+                color: white;
             }
         }
     }
