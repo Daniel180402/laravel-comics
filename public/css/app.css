@@ -79,3 +79,9 @@ main {
 .comic-container .comic-element img {
   height: 100%;
 }
+
+.jumbotron-wrapper {
+  height: 40vh;
+  background-image: url("../images/jumbotron.jpg");
+  margin-bottom: 2rem;
+}
