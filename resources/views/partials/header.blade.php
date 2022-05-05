@@ -1,4 +1,6 @@
 <header>
+    <div class="header-banner">
+    </div>
     <div class="my-container">
         <div class="header-logo">
             <img src="images/dc-logo.png" alt="DC Comics main logo">
