@@ -7,7 +7,7 @@
         </div>
 
         <nav class="header-nav">
-            <ul>
+            <ul class="mb-0">
                 <li>
                     <a :href="">
                         CHARACTERS

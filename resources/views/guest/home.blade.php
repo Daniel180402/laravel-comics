@@ -1,6 +1,7 @@
 @extends('layout.app')
 
 @section('content')
+<div class="comics-wrapper">
     <div class="my-container">
         <div class="comic-container">
             @foreach ($comics as $comic)
@@ -11,4 +12,5 @@
             @endforeach
         </div>
     </div>
+</div>
 @endsection
